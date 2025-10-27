@@ -4,7 +4,6 @@ services:
     env: docker
     plan: free
     autoDeploy: true
-    region: frankfurt
 
     # No build/start commands needed since Dockerfile handles it
     buildCommand: ""
